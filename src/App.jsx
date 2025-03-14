@@ -56,7 +56,7 @@ function App() {
       year: "2024",
     },
   ];
-  const categories = ["all", "painting", "photography", "digital"];
+  const categories = ["all", "painting", "sketches", "digital"];
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -257,13 +257,13 @@ function App() {
         <div className="contact-container">
           <div className="contact-info">
             <p>For inquiries about artworks, exhibitions, or commissions:</p>
-            <p>Email: info@artistname.com</p>
+            <p>Email: <a href="aleeelvis0@outlook.com"></a>aleeelvis0@outlook.com</p>
             <p>Studio: 123 Art Street, Creative District</p>
             <div className="social-links">
-              <a href="#" id="ig" className="social-icon">
+              <a href="https://www.instagram.com/elvis.rambo?igsh=YTM5Nmc1bHU4dDg1" id="ig" className="social-icon">
                 <FaInstagramSquare />
               </a>
-              <a href="#" id="x" className="social-icon">
+              <a href="https://x.com/OneElofatime?t=kSVo6nuTO40bzBzhN8drIg&s=09" id="x" className="social-icon">
                 <FaSquareXTwitter />
               </a>
               <a href="#" id="fb" className="social-icon">
