@@ -95,7 +95,7 @@ function App() {
     const message = encodeURIComponent(
       `Hey there Elvis, my name is ${username}. ${userMessage}`
     );
-    const whatsappURL = `https://wa.me/254114547447?text=${message}`;
+    const whatsappURL = `https://wa.me/254707740647?text=${message}`;
     window.open(whatsappURL, "_blank");
   };
 
@@ -182,7 +182,7 @@ function App() {
                 </div>
                 <div>
                   <WhatsAppButton
-                    phoneNumber="254114547447"
+                    phoneNumber="254707740647"
                     itemTitle={item.title}
                   />
                 </div>
