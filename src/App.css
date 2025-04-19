@@ -303,6 +303,14 @@ nav ul li a:hover::after {
   color: #888;
   text-transform: capitalize;
 }
+
+.meta-info{
+  font-weight: 600;
+}
+.meta-info p span{
+  font-weight:bolder;
+  color: rgba(0, 0, 0, 0.685);
+}
 .whatsapp-button{
   margin-top: 15px;
   min-width: 170px;

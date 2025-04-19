@@ -15,46 +15,93 @@ function App() {
       title: "Smoking Beauty - A woman's true beauty is in her hair.",
       category: "painting",
       image: "/images/WhatsApp Image 2025-03-05 at 13.03.36_8076f6e3.jpg",
-      year: "2023",
+      Dimension: '60*80 cm',
+      Medium: 'Oil and Smoke on canvas',
+      Status:'Sold'
     },
     {
       id: 2,
-      title: "Struggle - The scuffle to beat suffering is real.",
+      title: "Edge of a man.",
       category: "photography",
       image: "/images/WhatsApp Image 2025-03-05 at 13.03.36_bdc62120.jpg",
-      year: "2022",
+      Dimension: '80*75 cm',
+      Medium: 'Oil and Canvas',
+      Status:'ksh 20,000'
     },
     {
       id: 3,
-      title:
-        "Age of a River - The only way a man gets to relax his brain and his heart is through Fishing by the Riverside.",
+      title:"Age of a River. ",
       category: "painting",
       image: "/images/WhatsApp Image 2025-03-05 at 13.03.37_9bf8e58b.jpg",
-      year: "2024",
+      Dimension: '45*60 cm',
+      Medium: 'Oil and Canvas',
+      Status:'Sold'
     },
     {
       id: 4,
-      title: "Who's the King? Stay in your Lane.",
+      title: "Coexistance and Conflict",
       category: "digital",
       image: "/images/WhatsApp Image 2025-03-05 at 13.03.38_0e855cc5.jpg",
-      year: "2023",
+      Dimension: '100*100 cm',
+      Medium: 'Oil and Canvas',
+      Status: 'ksh 75,000'
     },
     {
       id: 5,
-      title:
-        "I can't breathe - From time to time, we need of our emotions and let them flow with the river.",
+      title:"Tools of creation.",
       category: "painting",
       image: "/images/WhatsApp Image 2025-03-05 at 13.03.38_6889a4a8.jpg",
-      year: "2021",
+      Dimension: '60*80 cm',
+      Medium: 'Oil and Canvas',
+      Status:'ksh 45,000'
     },
     {
       id: 6,
       title:
-        "Coexistence and Conflict - Strength and Power cannot be based on the age or size. The greatest weapon we can use is our minds.",
+        "Coexistence and Conflict.",
       category: "painting",
       image: "/images/WhatsApp Image 2025-03-05 at 13.03.38_f0de7708.jpg",
-      year: "2024",
+      Dimension: '35*35 cm',
+      Medium: 'Oil and Canvas',
+      Status:'Sold'
     },
+    {
+      id: 7,
+      title: 'Sketch 1',
+      category: "sketches",
+      image: "images/WhatsApp Image 2025-04-13 at 12.41.56_105f8489.jpg",
+      Dimension: '35*35 cm',
+      Medium: 'Oil and Canvas',
+      Status:'Sold'
+    },
+    {
+      id: 8,
+      title: 'Sketch 2',
+      category: "sketches",
+      image: "images/WhatsApp Image 2025-04-13 at 12.41.57_77b2fd8b.jpg",
+      Dimension: '35*35 cm',
+      Medium: 'Oil and Canvas',
+      Status:'Sold'
+    },
+    {
+      id: 9,
+      title: 'Sketch 3',
+      category: "sketches",
+      image: "images/WhatsApp Image 2025-04-13 at 12.41.57_ce85a0dd.jpg",
+      Dimension: '35*35 cm',
+      Medium: 'Oil and Canvas',
+      Status:'Sold'
+    },
+    {
+      id: 10,
+      title: 'Sketch 4',
+      category: "sketches",
+      image: "images/WhatsApp Image 2025-04-13 at 12.41.58_0efce380.jpg",
+      Dimension: '35*35 cm',
+      Medium: 'Oil and Canvas',
+      Status:'Sold'
+    },
+   
   ];
   const categories = ["all", "painting", "sketches", "digital"];
 
@@ -173,28 +220,35 @@ function App() {
               <div className="portfolio-image">
                 <img src={item.image} alt={item.title} />
               </div>
-              <div className="cont">
-                <div className="portfolio-info">
-                  <h3>{item.title}</h3>
-                  <p>
-                    {item.category} | {item.year}
-                  </p>
-                </div>
-                <div>
+                <div className="cont"> 
+                 <div className="portfolio-info">
+                   <h3>{item.title}</h3>
+                   <p>
+                    {item.category}
+                   </p>
+                 <div className="meta-info">
+                  <p><span>Dimension : </span> {item.Dimension}</p>
+                  <p><span>Medium : </span> {item.Medium}</p>
+                  <p><span>Status : </span> {item.Status}</p>
+                 </div>
+
+                 </div>
+                 </div>
+
+              <div>
                   <WhatsAppButton
                     phoneNumber="254707740647"
                     itemTitle={item.title}
                   />
                 </div>
               </div>
-            </div>
           ))}
         </div>
       </section>
 
       <section id="about" className="about">
         <div className="about-image">
-          <img src="/images/WhatsApp Image 2025-03-05 at 13.03.36_ac158cb7.jpg" alt="Artist portrait" />
+          <img src="images/WhatsApp Image 2025-04-13 at 12.41.23_4041a579.jpg" alt="Artist portrait" />
         </div>
         <div className="about-text">
           <h2>About Elvis</h2>
@@ -224,28 +278,28 @@ function App() {
           <div className="timeline-item">
             <div className="timeline-content">
               <h3>Solo Exhibition: &quot;Inner Landscapes&quot;</h3>
-              <h4>Modern Art Gallery, New York</h4>
+              <h4>Modern Art Gallery, Nairobi</h4>
               <p>June - August 2024</p>
             </div>
           </div>
           <div className="timeline-item">
             <div className="timeline-content">
               <h3>Group Show: &quot;Perspectives&quot;</h3>
-              <h4>Contemporary Art Space, London</h4>
+              <h4>Contemporary Art Space, Kisumu</h4>
               <p>March - May 2023</p>
             </div>
           </div>
           <div className="timeline-item">
             <div className="timeline-content">
               <h3>Biennale Participation</h3>
-              <h4>International Art Festival, Venice</h4>
+              <h4>International Art Festival, Mombasa</h4>
               <p>September - November 2022</p>
             </div>
           </div>
           <div className="timeline-item">
             <div className="timeline-content">
               <h3>Featured Artist</h3>
-              <h4>Emerging Talents Gallery, Berlin</h4>
+              <h4>Emerging Talents Gallery, Nakuru</h4>
               <p>January - February 2022</p>
             </div>
           </div>
@@ -257,8 +311,8 @@ function App() {
         <div className="contact-container">
           <div className="contact-info">
             <p>For inquiries about artworks, exhibitions, or commissions:</p>
-            <p>Email: <a href="aleeelvis0@outlook.com"></a>aleeelvis0@outlook.com</p>
-            <p>Studio: 123 Art Street, Creative District</p>
+            <p>Email: <a href="rambo.3lvis@gmail.com"></a>rambo.3lvis@gmail.com</p>
+            <p>Studio: Home Studio</p>
             <div className="social-links">
               <a href="https://www.instagram.com/elvis.rambo?igsh=YTM5Nmc1bHU4dDg1" id="ig" className="social-icon">
                 <FaInstagramSquare />
@@ -266,9 +320,7 @@ function App() {
               <a href="https://x.com/OneElofatime?t=kSVo6nuTO40bzBzhN8drIg&s=09" id="x" className="social-icon">
                 <FaSquareXTwitter />
               </a>
-              <a href="#" id="fb" className="social-icon">
-                <FaFacebookSquare />
-              </a>
+             
             </div>
           </div>
           <form className="contact-form">
