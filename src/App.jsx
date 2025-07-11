@@ -25,7 +25,7 @@ function App() {
       category: "photography",
       image: "/images/WhatsApp Image 2025-03-05 at 13.03.36_bdc62120.jpg",
       Dimension: '80*75 cm',
-      Medium: 'Oil and Canvas',
+      Medium: 'Oil on Canvas',
       Status: 'ksh 20,000'
     },
     {
@@ -34,7 +34,7 @@ function App() {
       category: "painting",
       image: "/images/WhatsApp Image 2025-03-05 at 13.03.37_9bf8e58b.jpg",
       Dimension: '45*60 cm',
-      Medium: 'Oil and Canvas',
+      Medium: 'Oil on Canvas',
       Status: 'Sold'
     },
     {
@@ -43,7 +43,7 @@ function App() {
       category: "digital",
       image: "/images/WhatsApp Image 2025-03-05 at 13.03.38_0e855cc5.jpg",
       Dimension: '100*100 cm',
-      Medium: 'Oil and Canvas',
+      Medium: 'Oil on Canvas',
       Status: 'ksh 75,000'
     },
     {
@@ -52,7 +52,7 @@ function App() {
       category: "painting",
       image: "/images/WhatsApp Image 2025-03-05 at 13.03.38_6889a4a8.jpg",
       Dimension: '60*80 cm',
-      Medium: 'Oil and Canvas',
+      Medium: 'Oil on Canvas',
       Status: 'ksh 45,000'
     },
     {
@@ -62,7 +62,7 @@ function App() {
       category: "painting",
       image: "/images/WhatsApp Image 2025-03-05 at 13.03.38_f0de7708.jpg",
       Dimension: '35*35 cm',
-      Medium: 'Oil and Canvas',
+      Medium: 'Oil on Canvas',
       Status: 'Sold'
     },
     {
@@ -71,7 +71,7 @@ function App() {
       category: "sketches",
       image: "images/WhatsApp Image 2025-04-13 at 12.41.56_105f8489.jpg",
       Dimension: '35*35 cm',
-      Medium: 'Oil and Canvas',
+      Medium: 'Oil on Canvas',
       Status: 'Sold'
     },
     {
@@ -80,7 +80,7 @@ function App() {
       category: "sketches",
       image: "images/WhatsApp Image 2025-04-13 at 12.41.57_77b2fd8b.jpg",
       Dimension: '35*35 cm',
-      Medium: 'Oil and Canvas',
+      Medium: 'Oil on Canvas',
       Status: 'Sold'
     },
     {
@@ -89,7 +89,7 @@ function App() {
       category: "sketches",
       image: "images/WhatsApp Image 2025-04-13 at 12.41.57_ce85a0dd.jpg",
       Dimension: '35*35 cm',
-      Medium: 'Oil and Canvas',
+      Medium: 'Oil on Canvas',
       Status: 'Sold'
     },
     {
@@ -97,8 +97,35 @@ function App() {
       title: 'Sketch 4',
       category: "sketches",
       image: "images/WhatsApp Image 2025-04-13 at 12.41.58_0efce380.jpg",
+      Dimension: '22*30cm',
+      Medium: 'Charcoal on Toned paper',
+      Status: 'Sold'
+    },
+     {
+      id: 11,
+      title: 'Pegion',
+      category: "sketches",
+      image: "images/new pegion.jpg",
       Dimension: '35*35 cm',
-      Medium: 'Oil and Canvas',
+      Medium: 'Charcoal on Toned paper',
+      Status: ''
+    },
+    {
+      id: 12,
+      title: 'African Bee-eater',
+      category: "sketches",
+      image: "images/african_bee_eater.jpg",
+      Dimension: '21*30cm',
+      Medium: 'Charcoal on Toned paper',
+      Status: 'Sold'
+    },
+     {
+      id: 13,
+      title: 'Mawimbi Kiasi',
+      category: "painting",
+      image: "images/mawimbi kiasi.jpg",
+      Dimension: '55*65cm',
+      Medium: 'Oil on canvas ',
       Status: 'Sold'
     },
 
