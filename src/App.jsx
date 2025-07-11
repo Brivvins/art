@@ -17,7 +17,7 @@ function App() {
       image: "/images/WhatsApp Image 2025-03-05 at 13.03.36_8076f6e3.jpg",
       Dimension: '60*80 cm',
       Medium: 'Oil and Smoke on canvas',
-      Status:'Sold'
+      Status: 'Sold'
     },
     {
       id: 2,
@@ -26,16 +26,16 @@ function App() {
       image: "/images/WhatsApp Image 2025-03-05 at 13.03.36_bdc62120.jpg",
       Dimension: '80*75 cm',
       Medium: 'Oil and Canvas',
-      Status:'ksh 20,000'
+      Status: 'ksh 20,000'
     },
     {
       id: 3,
-      title:"Age of a River. ",
+      title: "Age of a River. ",
       category: "painting",
       image: "/images/WhatsApp Image 2025-03-05 at 13.03.37_9bf8e58b.jpg",
       Dimension: '45*60 cm',
       Medium: 'Oil and Canvas',
-      Status:'Sold'
+      Status: 'Sold'
     },
     {
       id: 4,
@@ -48,12 +48,12 @@ function App() {
     },
     {
       id: 5,
-      title:"Tools of creation.",
+      title: "Tools of creation.",
       category: "painting",
       image: "/images/WhatsApp Image 2025-03-05 at 13.03.38_6889a4a8.jpg",
       Dimension: '60*80 cm',
       Medium: 'Oil and Canvas',
-      Status:'ksh 45,000'
+      Status: 'ksh 45,000'
     },
     {
       id: 6,
@@ -63,7 +63,7 @@ function App() {
       image: "/images/WhatsApp Image 2025-03-05 at 13.03.38_f0de7708.jpg",
       Dimension: '35*35 cm',
       Medium: 'Oil and Canvas',
-      Status:'Sold'
+      Status: 'Sold'
     },
     {
       id: 7,
@@ -72,7 +72,7 @@ function App() {
       image: "images/WhatsApp Image 2025-04-13 at 12.41.56_105f8489.jpg",
       Dimension: '35*35 cm',
       Medium: 'Oil and Canvas',
-      Status:'Sold'
+      Status: 'Sold'
     },
     {
       id: 8,
@@ -81,7 +81,7 @@ function App() {
       image: "images/WhatsApp Image 2025-04-13 at 12.41.57_77b2fd8b.jpg",
       Dimension: '35*35 cm',
       Medium: 'Oil and Canvas',
-      Status:'Sold'
+      Status: 'Sold'
     },
     {
       id: 9,
@@ -90,7 +90,7 @@ function App() {
       image: "images/WhatsApp Image 2025-04-13 at 12.41.57_ce85a0dd.jpg",
       Dimension: '35*35 cm',
       Medium: 'Oil and Canvas',
-      Status:'Sold'
+      Status: 'Sold'
     },
     {
       id: 10,
@@ -99,9 +99,9 @@ function App() {
       image: "images/WhatsApp Image 2025-04-13 at 12.41.58_0efce380.jpg",
       Dimension: '35*35 cm',
       Medium: 'Oil and Canvas',
-      Status:'Sold'
+      Status: 'Sold'
     },
-   
+
   ];
   const categories = ["all", "painting", "sketches", "digital"];
 
@@ -220,28 +220,28 @@ function App() {
               <div className="portfolio-image">
                 <img src={item.image} alt={item.title} />
               </div>
-                <div className="cont"> 
-                 <div className="portfolio-info">
-                   <h3>{item.title}</h3>
-                   <p>
+              <div className="cont">
+                <div className="portfolio-info">
+                  <h3>{item.title}</h3>
+                  <p>
                     {item.category}
-                   </p>
-                 <div className="meta-info">
-                  <p><span>Dimension : </span> {item.Dimension}</p>
-                  <p><span>Medium : </span> {item.Medium}</p>
-                  <p><span>Status : </span> {item.Status}</p>
-                 </div>
+                  </p>
+                  <div className="meta-info">
+                    <p><span>Dimension : </span> {item.Dimension}</p>
+                    <p><span>Medium : </span> {item.Medium}</p>
+                    <p><span>Status : </span> {item.Status}</p>
+                  </div>
 
-                 </div>
-                 </div>
-
-              <div>
-                  <WhatsAppButton
-                    phoneNumber="254707740647"
-                    itemTitle={item.title}
-                  />
                 </div>
               </div>
+
+              <div>
+                <WhatsAppButton
+                  phoneNumber="254707740647"
+                  itemTitle={item.title}
+                />
+              </div>
+            </div>
           ))}
         </div>
       </section>
@@ -253,21 +253,13 @@ function App() {
         <div className="about-text">
           <h2>About Elvis</h2>
           <p>
-            Elvis is an incredibly talented painter based in Nairobi, known for
-            his ability to bring emotions to life through his brushstrokes. With
-            a deep passion for art, he masterfully blends colors, textures, and
-            imagination to create captivating pieces that tell unique stories.
-          </p>
-          <p>
-            From expressive portraits to breathtaking landscapes, Elvis’s work
-            reflects both technical skill and raw creativity. Each painting is a
-            glimpse into his artistic vision, offering viewers an immersive
-            experience filled with depth and emotion.
-          </p>
-          <p>
-            Driven by a love for artistic expression, Elvis continues to push
-            boundaries, crafting pieces that inspire, evoke thought, and leave a
-            lasting impression.
+            <p>I am a contemporary oil painter whose works are evident by a profound exploration of light, texture, and emotion. Sourcing inspiration from nature, the human form, everyday life, and inter-personal interactions.</p>
+            
+            <p>My works invite viewers to experience familiar subjects in new and enticing ways. With a skilful display of the mediums (charcoal or oil), I am able to create vibrant and evocative works that show realism with an expressive, personal touch.</p>
+
+            <p>I am drawn to curatorial practices and exhibitions that tend to promote cultural awareness and as well provoke a conversation from the audience.</p>
+
+            <p>My works have been exhibited in the Nairobi National Museum of Kenya Art Gallery and in various Kenyan group exhibitions and art shows across Africa.</p>
           </p>
         </div>
       </section>
@@ -320,18 +312,18 @@ function App() {
               <a href="https://x.com/OneElofatime?t=kSVo6nuTO40bzBzhN8drIg&s=09" id="x" className="social-icon">
                 <FaSquareXTwitter />
               </a>
-             
+
             </div>
           </div>
           <form className="contact-form">
             <div className="form-group">
               <label htmlFor="name">Name</label>
               <input type="text"
-               id="name" 
-               name="name" 
-               value={username}
-               onChange={handleNameChange}
-               required />
+                id="name"
+                name="name"
+                value={username}
+                onChange={handleNameChange}
+                required />
             </div>
 
             <div className="form-group">
